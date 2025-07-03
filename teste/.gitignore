@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diretórios de dependências
+node_modules/
+
+# Build e distribuição
+dist/
+dist-ssr/
+.build/
+out/
+.next/
+.temp/
+.cache/
+
+# Arquivos de ambiente e locais
+*.local
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Diretórios de editores e IDEs
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Relacionado a testes (opcional)
+coverage/
+.nyc_output/
+
+# Outros temporários
+*.tgz
+*.bak
+*.tmp
+*.temp
+*.log.[0-9]
+
+# Relacionado ao pacote (opcional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Evita conflitos de lockfile se mudar o gerenciador de pacotes
+# (remova da lista se quiser versionar o lock)
+
+# Optional: Ignore snapshots se você usar Jest
+__snapshots__/

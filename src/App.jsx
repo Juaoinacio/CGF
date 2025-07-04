@@ -1,14 +1,18 @@
 import React from 'react';
-import Home from './components/Home.jsx'
+import NavBar from './components/NavBar.jsx';
+import Home from './components/Home.jsx'; // ajuste o caminho conforme sua estrutura
 
 function App() {
-  return(
-    <div>
-      <p className='text-red-400'>rtieurtiowetuoiwetr</p>
-      <Home/>
+  return (
+    <div className="w-screen grid grid-cols-1">
+      <div className="row-auto">
+        <NavBar />
+      </div>
+      <div className="row-auto">
+        <Home />
+      </div>
     </div>
-  ) 
-  
+  );
 }
 
-export default App
+export default App;
